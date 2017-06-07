@@ -1,0 +1,82 @@
+body{
+    background: url("images/clock.jpg") center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+#header{
+    text-align: center;
+    font-size: 3vw;  /*width according to the size of the window*/
+}
+
+#laptime{
+    text-align: right;
+    font-size: 2vw;
+}
+
+#time{
+    text-align: center;
+    font-size: 3vw;
+}
+
+#controls{
+    margin-bottom: 100px;
+
+}
+
+.btn{
+    margin-top: 20px;
+    color: white;
+    background-color:darkslategrey;
+    border-radius: 100%;
+    height: 6vw;
+    width: 6vw;
+    text-align: center;
+    padding-top: 13%;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:burlywood;
+}
+
+.btn:active{
+    background-color:burlywood;
+}
+
+#laps{
+    max-height:500px; 
+    margin: 100px;
+    overflow-y: scroll;
+    background: rgba(169, 169, 169, 0.32);
+    width: 50%;
+    margin-left: 25%;
+
+
+}
+
+.laps{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.laptitle{
+    margin-top: 10px;
+    padding-bottom:  10px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 1vw;
+    flex: 1;
+}
+
+.laptime{
+    margin-top: 10px;
+    padding-bottom:  10px;
+    padding-top: 10px;
+    flex: 1;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
